@@ -4,7 +4,7 @@
 1. Install Virtual Environment
 To install a virtual environment, you need to have Python3 installed on your system. You can then run the following command to create a virtual environment:
 
-```python3 -m venv venv```
+`python3 -m venv venv`
 
 2. Activate the Virtual Environment
 Once the virtual environment is created, you need to activate it by running the following command:
