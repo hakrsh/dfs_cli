@@ -14,5 +14,5 @@ for file_name in file_names:
 # if it does, add the path to the image to the dataframe 
 # if it doesn't, add default image path to the dataframe
 
-df['file_path'] = df['Manufacturer'].apply(lambda x: manufacturer[x] if x in manufacturer else 'default.jpg')
+df['file_path'] = df['Manufacturer'].apply(lambda x: manufacturer[x] if x in manufacturer else manufacturer['default'])
 df.to_csv('./metadata.csv', index=False)
